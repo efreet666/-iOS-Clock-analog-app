@@ -16,6 +16,12 @@
 		F53112D127071700000C8278 /* HomeWork_11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53112D027071700000C8278 /* HomeWork_11Tests.swift */; };
 		F53112DB27071700000C8278 /* HomeWork_11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53112DA27071700000C8278 /* HomeWork_11UITests.swift */; };
 		F53112DD27071700000C8278 /* HomeWork_11UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53112DC27071700000C8278 /* HomeWork_11UITestsLaunchTests.swift */; };
+		F53112EA27071A3A000C8278 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53112E927071A3A000C8278 /* MyTabBarController.swift */; };
+		F5B2B4992710380900C8D25A /* AlarmClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2B4982710380900C8D25A /* AlarmClock.swift */; };
+		F5B2B49C27103B6000C8D25A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2B49A27103B6000C8D25A /* CustomTableViewCell.swift */; };
+		F5B2B49D27103B6000C8D25A /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B2B49B27103B6000C8D25A /* CustomTableViewCell.xib */; };
+		F5E0FDF6270C3FEE00A4EBB7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0FDF5270C3FEE00A4EBB7 /* SecondViewController.swift */; };
+		F5E0FDF8270C7DA900A4EBB7 /* SecondModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0FDF7270C7DA900A4EBB7 /* SecondModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		F53112D627071700000C8278 /* HomeWork 11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork 11UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53112DA27071700000C8278 /* HomeWork_11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_11UITests.swift; sourceTree = "<group>"; };
 		F53112DC27071700000C8278 /* HomeWork_11UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_11UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F53112E927071A3A000C8278 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		F5B2B4982710380900C8D25A /* AlarmClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClock.swift; sourceTree = "<group>"; };
+		F5B2B49A27103B6000C8D25A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F5B2B49B27103B6000C8D25A /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		F5E0FDF5270C3FEE00A4EBB7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F5E0FDF7270C7DA900A4EBB7 /* SecondModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +114,13 @@
 				F53112B9270716FD000C8278 /* AppDelegate.swift */,
 				F53112BB270716FD000C8278 /* SceneDelegate.swift */,
 				F53112BD270716FD000C8278 /* ViewController.swift */,
+				F5E0FDF5270C3FEE00A4EBB7 /* SecondViewController.swift */,
+				F5E0FDF7270C7DA900A4EBB7 /* SecondModalViewController.swift */,
+				F5B2B49A27103B6000C8D25A /* CustomTableViewCell.swift */,
+				F5B2B49B27103B6000C8D25A /* CustomTableViewCell.xib */,
+				F5B2B4982710380900C8D25A /* AlarmClock.swift */,
 				F53112BF270716FD000C8278 /* Main.storyboard */,
+				F53112E927071A3A000C8278 /* MyTabBarController.swift */,
 				F53112C227071700000C8278 /* Assets.xcassets */,
 				F53112C427071700000C8278 /* LaunchScreen.storyboard */,
 				F53112C727071700000C8278 /* Info.plist */,
@@ -233,6 +251,7 @@
 			files = (
 				F53112C627071700000C8278 /* LaunchScreen.storyboard in Resources */,
 				F53112C327071700000C8278 /* Assets.xcassets in Resources */,
+				F5B2B49D27103B6000C8D25A /* CustomTableViewCell.xib in Resources */,
 				F53112C1270716FD000C8278 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F53112BE270716FD000C8278 /* ViewController.swift in Sources */,
+				F53112EA27071A3A000C8278 /* MyTabBarController.swift in Sources */,
+				F5B2B49C27103B6000C8D25A /* CustomTableViewCell.swift in Sources */,
+				F5E0FDF8270C7DA900A4EBB7 /* SecondModalViewController.swift in Sources */,
+				F5B2B4992710380900C8D25A /* AlarmClock.swift in Sources */,
 				F53112BA270716FD000C8278 /* AppDelegate.swift in Sources */,
+				F5E0FDF6270C3FEE00A4EBB7 /* SecondViewController.swift in Sources */,
 				F53112BC270716FD000C8278 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
